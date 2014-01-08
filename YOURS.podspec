@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YOURS"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "Objective-C class for accessing Yet another OpenStreetMap Route Service"
   s.description  = <<-DESC
                   Objective-C class for accessing [Yet another OpenStreetMap Route Service](http://wiki.openstreetmap.org/wiki/YOURS#API_documentation) that provides routing API based on OSM.
