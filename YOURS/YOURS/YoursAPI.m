@@ -101,7 +101,7 @@ typedef NS_ENUM(NSInteger, YoursResponseFormat) {
                              @"instructions" : @(_includeInstructions), @"lang" : _responseLanguage, @"format": @"geojson"};
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    manager.requestSerializer = [AFHTTPRequestSerializer serializer];
     manager.responseSerializer = [AFJSONResponseSerializer serializer];
     [manager.requestSerializer setValue:_clientInfo forHTTPHeaderField:@"X-Yours-client"];
     
